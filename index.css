@@ -1,5 +1,102 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: #EDEDED;
+    font-family: "Source Sans 3", sans-serif;
 }
 
+
+/************** TYPOGRAPHY **************/
+
+h1, h2, p {
+    margin: 0;
+}
+
+/* size */
+h1, p {
+    font-size: 13px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+/* weight */
+h1, .like-count, .username {
+    font-weight: 700;
+}
+
+h2, p {
+    font-weight: 400;
+}
+
+
+/************** LAYOUT **************/
+.container {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header {
+    padding: 4px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+
+.logo {
+    width: 127px;
+}
+
+.avatar {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.user-info {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.post-data {
+    padding: 14px 12px;
+}
+
+.reaction-bar {
+    margin-left: -2px;
+    margin-bottom: 8px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    width: 28px;
+    margin: 0;
+    margin-right: 8px;
+}
+
+.icon:active {
+    width: 22px;
+    margin-left: 3px;
+    margin-right: 11px;
+}
+
+.like-count {
+    margin-bottom: 12px;
+}

@@ -1,20 +1,40 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400..700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
         <div class="container">
-            <section class="post">
-                <div class="profile-info">
-                    <img class="avatar" src="images/avatar-vangogh.jpg">
-                    <h1>profilename</h1>
-                    <h2>postlocation</h2>
-                </div>
-                <img src="images/post-vangogh.jpg" alt="Self portrait of Vincent van Gogh. The pain">
-            </section>
-            
+            <header>
+                <img class="logo" src="images/logo.png" alt="Oldagram logo">
+                <img class="avatar" src="images/user-avatar.png" alt="User's avatar">
+            </header>
+
+            <main>
+                <section class="post">
+                    <div class="user-info">
+                        <img class="avatar" src="images/avatar-vangogh.jpg">
+                        <div>
+                            <h1>Vincent van Gogh</h1>
+                            <h2>Zudert, Netherlands</h2>
+                        </div>
+                    </div>
+                    <img class="post-img" src="images/post-vangogh.jpg" alt="Self portrait of Vincent van Gogh. He has reddish-blond hair and a trimmed beard. He is wearing a grey-blue suit, which closely matches the blue background. Van Gogh is positioned at a slight angle, but his eyes stare intensley at the viewer. The swirling, wavy brush strokes give the painting a dreamy feeling.">
+                    <div class="post-data">
+                        <div class="reaction-bar">
+                            <img class="icon" src="images/icon-heart.png" alt="Heart icon">
+                            <img class="icon" src="images/icon-comment.png" alt="Comment icon">
+                            <img class="icon" src="images/icon-dm.png" alt="Share icon">
+                        </div>
+                        <p class="like-count">21,492 likes</p>
+                        <p class="caption"><span class="username">vincey1853</span> just took a few mushrooms lol</p>
+                    </div>
+                </section>
+            </main>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
